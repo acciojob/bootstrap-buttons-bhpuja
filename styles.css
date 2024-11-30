@@ -1,125 +1,72 @@
-/* Add some space between buttons and style the container */
-.container {
-    margin-top: 20px;
-    padding: 10px;
-}
-
-/* Style for the button group */
-.button-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-/* Primary button style */
-#button-1 {
-    background-color: #007bff;
-    color: white;
+/* General Button Styling */
+button {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 4px;
 }
 
-#button-1:hover {
-    background-color: #0056b3;
+/* Button 1: Primary button */
+#button-1 {
+    background-color: #0d6efd;
+    color: white;
 }
 
-/* Outline secondary button style */
+/* Button 2: Outline secondary button */
 #button-2 {
     background-color: transparent;
     color: #6c757d;
-    border: 1px solid #6c757d;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    border: 2px solid #6c757d;
 }
 
-#button-2:hover {
-    background-color: #6c757d;
-    color: white;
-}
-
-/* Success large button style */
+/* Button 3: Success large button */
 #button-3 {
-    background-color: #28a745;
+    background-color: #198754;
     color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 18px;
-    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 25px;
 }
 
-#button-3:hover {
-    background-color: #218838;
-}
-
-/* Danger small button style */
+/* Button 4: Danger small button */
 #button-4 {
     background-color: #dc3545;
     color: white;
-    border: none;
+    font-size: 12px;
     padding: 5px 10px;
-    font-size: 14px;
-    border-radius: 5px;
 }
 
-#button-4:hover {
-    background-color: #c82333;
-}
-
-/* Warning large full-screen width button style */
+/* Button 5: Warning large full-screen width button */
 #button-5 {
     background-color: #ffc107;
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 18px;
+    color: black;
+    font-size: 20px;
     width: 100%;
-    border-radius: 5px;
 }
 
-#button-5:hover {
-    background-color: #e0a800;
-}
-
-/* Disabled info button style */
+/* Button 6: Disabled info button */
 #button-6 {
-    background-color: #17a2b8;
+    background-color: #0dcaf0;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
     cursor: not-allowed;
     opacity: 0.65;
 }
 
-/* Light button style */
+/* Button 7: Light button */
 #button-7 {
     background-color: #f8f9fa;
-    color: #343a40;
+    color: black;
     border: 1px solid #ced4da;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
 }
 
-#button-7:hover {
-    background-color: #e2e6ea;
-}
-
-/* Link button style */
+/* Button 8: Link button */
 #button-8 {
     background-color: transparent;
-    color: #007bff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    color: #0d6efd;
     text-decoration: underline;
+    border: none;
+    padding: 0;
 }
 
-#button-8:hover {
-    background-color: transparent;
-    color: #0056b3;
-}
+
